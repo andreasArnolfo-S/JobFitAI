@@ -1,0 +1,21 @@
+{
+  "name": "jobfitai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:css": "tailwindcss -i ./styles/input.css -o ./styles/output.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^35.2.0"
+  },
+  "dependencies": {
+    "ollama": "^0.5.15",
+    "pdf-parse": "^1.1.1"
+  }
+}
